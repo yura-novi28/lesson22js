@@ -1,0 +1,58 @@
+@import url(./reset.css);
+
+.container{
+    margin: 5% auto;
+    height: 160px;
+    width: 780px;
+    border: 2px solid black;
+    display: flex;
+    padding: 0 5px;
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.box:nth-child(1){
+    background-color: red;
+    left: 5px;
+    top: 5px;
+}
+
+.box:nth-child(2){
+    background-color: blue;
+    left: 161px;
+    top: 5px;
+}
+
+.box:nth-child(3){
+    background-color: yellow;
+    left: 318px;
+    top: 5px;
+
+}
+
+.box:nth-child(4){
+    background-color: aqua;
+    left: 477px;
+    top: 5px;
+}
+
+.box:nth-child(5){
+    background-color: gray;
+    left: 635px;
+    top: 5px;
+}
+
+.big-gray{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 2;
+}
